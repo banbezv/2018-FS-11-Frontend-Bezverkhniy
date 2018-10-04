@@ -1,0 +1,22 @@
+{
+  "name": "quack_package.json",
+  "version": "1.0.0",
+  "description": "descrioption",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy.git"
+  },
+  "keywords": [
+    "quack"
+  ],
+  "author": "banbezv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy/issues"
+  },
+  "homepage": "https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy#readme"
+}
