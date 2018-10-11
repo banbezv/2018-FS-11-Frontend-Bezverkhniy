@@ -1,2 +1,2 @@
 import say from './lib/test.js';
-say("Text to say");
+say('Text to say');
