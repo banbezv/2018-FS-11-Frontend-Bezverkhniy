@@ -1,28 +1,16 @@
 {
-  "name": "quack_package.json",
+  "name": "quack_front",
   "version": "1.0.0",
-  "description": "descrioption",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test_"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy.git"
-  },
-  "keywords": [
-    "quack"
-  ],
-  "author": "banbezv",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy/issues"
-  },
-  "homepage": "https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^4.20.2"
+    "babel-preset-env": "^1.7.0"
   }
 }
