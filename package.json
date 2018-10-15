@@ -1,22 +1,24 @@
 {
-  "name": "quack_package.json",
-  "version": "1.0.0",
-  "description": "descrioption",
-  "main": "index.js",
   "scripts": {
-    "test": "test_"
+    "pretest": "eslint --fix --ignore-path .gitignore .",
+    "test": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy.git"
-  },
-  "keywords": [
-    "quack"
-  ],
-  "author": "banbezv",
+  "name": "quack_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy/issues"
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
   },
-  "homepage": "https://github.com/banbezv/2018-FS-11-Frontend-Bezverkhniy#readme"
+  "dependencies": {
+    "eslint-plugin-import": "^2.14.0"
+  }
 }
